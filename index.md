@@ -1,5 +1,8 @@
 # INF-0103 Datamaskiners virkemåte og programmering, høst 2025.
 
+Innleveringer og kunngjøringer skjer i Canvas. Se også Canvas for
+invitasjonslenke til Discord.
+
 ## Innhold {#innhold}
 Her er nyttige lenker for å hoppe rett til en av overskriftene nedenfor
 
