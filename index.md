@@ -99,7 +99,7 @@ I tillegg finnes det mange alternativer på YouTube, som f.eks. fra
 
 [Tilbake til innhold](#innhold)
 
-## Temaoversikt {#forelesningsnotater}
+## Forelesningsnotater {#forelesningsnotater}
 Forelesningsnotater legges under `lectures/` i [dette github-repoet](https://github.com/uit-inf0103-25/uit-inf0103-25.github.io).
 
 [Tilbake til innhold](#innhold)
@@ -190,7 +190,6 @@ int factorial(int n) {
 }
 ```
 
-* [Forelesningsnotater]()
 * Relevant pensum: TK
 * Anbefalte oppgaver: TK
 
