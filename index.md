@@ -59,7 +59,7 @@ Oversikt over BBI tema finner du [her](https://uit.no/project/bbi2/cultural).
 |-----------------|------------------------------------------------------|-----------------------------------|-----------|
 |**Tirsdag 23/09**|   Kompilering og headers                             |                                   |   JP+EH   |
 | Fredag 26/09    |   BBI-foredrag                                       |                                   |   BBI     |
-|**Tirsdag 30/09**|   Minne I: Minne, pekere, generell oversikt          |                                   |   JP      |
+|**Tirsdag 30/09**|   Minne I: Pekere, tabeller, generell oversikt       |                                   |   JP      |
 | Fredag 03/10    |   2's complement og flyttallsrepresentasjoner        |                                   |   AB      |
 |**Tirsdag 07/10**|   Sammensatte datatyper (structs) + BBI foredrag     |                                   |  BBI+EP   |
 | Fredag 10/10    |   Minne II: Dynamisk minnehåndtering                 | obligatorisk oppgave deles ut     |   EP      |
@@ -119,10 +119,10 @@ kompilering; et C prosjekt organiseres typisk med headerfiler.
 * Relevant pensum: TK
 * Anbefalte oppgaver: TK
 
-###  Minne I: Minne, pekere, generell oversikt          
+###  Minne I: Pekere, tabeller, generell oversikt          
 Alle variabler ligger et sted i datamaskinens minne. En peker er en egen
 datatype i C som peker (herav navnet) til en minneaddresse, altså en plass i
-minnet.
+minnet. En tabell (**array**) er en samling med verdier som ligger etter hverandre i minnet. 
 
 * Relevant pensum: P&P kapittel 16, K&R kapittel 5.
 * Anbefalte oppgaver: P&P 16.1-16.3, 16.9

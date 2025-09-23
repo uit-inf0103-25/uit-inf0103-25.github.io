@@ -1,6 +1,6 @@
 ---
 title:
-- "INF-0103 Minne og pekere"
+- "INF-0103 Minne I: Pekere, tabeller, generell oversikt"
 author:
 - "Jakob Peder Pettersen, UiT – Norges arktiske universitet"
 theme:
@@ -26,8 +26,6 @@ date:
 * Tabeller (**arrays**)
 
 * Peker-aritimetikk
-
-* Størrelsen på variabler
 
 # Et (forhåpentligvis) kjent eksempel: `printf` og `scanf`
 
@@ -207,16 +205,3 @@ int arr[] = {-4, 5, 2, 130, -11};
 * Ikke tilgjengelig i C++
 
 # Eksemplet vårt med brukerbestemt lengde
-
-
-# `sizeof`-operatoren
-
-* Forteller hvor mange bytes en variabel eller en datatype tar opp i minnet
-
-* Kan brukes direkte på datatypen `sizeof(int)` eller på en variabel `sizeof(x)`.
-
-* Alle pekere tar like mye plass (de er alle minneaddresser)
-
-* Relasjon til peker-aritimetikk: `p + n` gir en peker som er `n * sizeof(*p)` bytes lenger framme enn `p`
-
-# Eksempel med `sizeof`-operatoren
