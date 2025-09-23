@@ -116,7 +116,7 @@ oppgaver. For forelesningsnotater se
 C kode oversettes til et kjørbart program via en prosess som kalles
 kompilering; et C prosjekt organiseres typisk med headerfiler.
 
-* Relevant pensum: P&P kap. 11
+* Relevant pensum: P&P kap. 11 og K&R kap. 4
 * Anbefalte oppgaver: P&P 11.9, 11.12  og K&R 4-2, 4-3, 4-5, 4-14
 
 Se også for eksempel 
