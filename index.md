@@ -34,7 +34,7 @@ Her er nyttige lenker for å hoppe rett til en av overskriftene nedenfor
 * AB: Anne Bosch (foreleser)
 * RB: Rune Bostad (ansvarilg på Mo)
 * EH: Einar Holsbø (kursansvarlig)
-* EP: Edvard Pederseon (foreleser)
+* EP: Edvard Pedersen (foreleser)
 * JP: Jakob Pettersen (foreleser)
 
 ### Hjelpelærere
@@ -116,13 +116,18 @@ oppgaver. For forelesningsnotater se
 C kode oversettes til et kjørbart program via en prosess som kalles
 kompilering; et C prosjekt organiseres typisk med headerfiler.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kap. 11
+* Anbefalte oppgaver: P&P 11.9, 11.12  og K&R 4-2, 4-3, 4-5, 4-14
+
+Se også for eksempel 
+[denne introduksjonen til GCC](https://phoxis.org/2009/12/01/beginners-guide-to-gcc/) 
+for mer detaljer om det å kompilere et C program.
 
 ###  Minne I: Pekere, tabeller, generell oversikt          
 Alle variabler ligger et sted i datamaskinens minne. En peker er en egen
 datatype i C som peker (herav navnet) til en minneaddresse, altså en plass i
-minnet. En tabell (**array**) er en samling med verdier som ligger etter hverandre i minnet. 
+minnet. En tabell (**array**) er en samling med verdier som ligger etter
+hverandre i minnet. 
 
 * Relevant pensum: P&P kapittel 16, K&R kapittel 5.
 * Anbefalte oppgaver: P&P 16.1-16.3, 16.9
