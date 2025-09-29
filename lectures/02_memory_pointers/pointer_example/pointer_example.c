@@ -6,7 +6,7 @@ void foo(int x) {
     printf("x i foo() har addressen: %p\n", &x);
 }
 
-void bar(int* x_peker) {
+void bar(int *x_peker) {
     int x = *x_peker;
     *x_peker = x + x;
     printf("x_peker i bar() er: %p\n", x_peker);

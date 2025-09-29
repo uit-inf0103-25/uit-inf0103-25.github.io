@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* foo() {
+int *foo() {
     int verdi = 204;
     int *verdi_peker = &verdi;
     return verdi_peker;

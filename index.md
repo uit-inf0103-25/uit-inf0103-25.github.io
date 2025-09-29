@@ -20,12 +20,14 @@ Her er nyttige lenker for å hoppe rett til en av overskriftene nedenfor
 * Patt & Patel -- Introduction to Computing Systems (kalles P&P i
   temaoversikt). Fås i universitetsbokhandelen. Det finner løsningsforslag til
   utvalgte oppgaver 
-  [på denne siden](https://highered.mheducation.com/sites/1260150534/student_view0/student_solutions_manual.html).
+  [på denne siden](https://highered.mheducation.com/sites/1260150534/student_view0/student_solutions_manual.html). 
+  Merk at LC3 ikke er en del av pensum i dette kurset.
 
 ### Støttelitteratur
 * Kernighan & Ritchie -- The C Programming language (K&R i temaoversikt).
   [Finnes tilgjengelig online her](https://archive.org/details/c-programming-language-2nd-edition/mode/2up).
 * [c-faq](https://c-faq.com/): ofte-stilte spørsmål om C
+* [C reference](https://en.cppreference.com/w/c.html): Teknisk dokumentasjon for C.
 
 [Tilbake til innhold](#innhold)
 
@@ -125,7 +127,7 @@ for mer detaljer om det å kompilere et C program.
 
 ###  Minne I: Pekere, tabeller, generell oversikt          
 Alle variabler ligger et sted i datamaskinens minne. En peker er en egen
-datatype i C som peker (herav navnet) til en minneaddresse, altså en plass i
+datatype i C som peker (herav navnet) til en minneadresse, altså en plass i
 minnet. En tabell (**array**) er en samling med verdier som ligger etter
 hverandre i minnet. 
 
