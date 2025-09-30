@@ -464,6 +464,10 @@ exchange</a> har alle slags små oppgaver. Poenget for de som deltar
 aktivt er å skrive så korte programmer som mulig (derav “golf”); vi
 anbefaler å ignorere denne delen av code golfing da det ikke oppmuntrer
 til spesielt god/lesbar kode.</li>
+<li><a href="https://adventofcode.com/">Advent of Code</a> er en
+programmeringsaktivitet som går 1-25 desember hvert år: hver dag kommer
+det en ny programmerings oppgave i stigende vanskelighetsgrad. Man kan
+se alle oppgaver fra tidligere år.</li>
 </ul>
 <p>I tillegg finnes det mange alternativer på YouTube, som f.eks. fra <a
 href="https://www.youtube.com/watch?v=KJgsSFOSQv0">freeCodeCamp</a>.</p>
@@ -475,7 +479,8 @@ github-repoet</a>.</p>
 <p><a href="#innhold">Tilbake til innhold</a></p>
 <h2 id="temaoversikt">Temaoversikt</h2>
 <p>Nedenfor er kurset i et nøtteskall med hint om relevant pensum og
-forslag til oppgaver. For forelesningsnotater se <a
+forslag til oppgaver. Merk at forelesningsnotatene ofte inneholder
+oppgaver også. For forelesningsnotater se <a
 href="#forelesningsnotater">forelesningsnotater</a> over.</p>
 <h3 id="kompilering-og-headers">Kompilering og headers</h3>
 <p>C kode oversettes til et kjørbart program via en prosess som kalles
@@ -497,7 +502,7 @@ plass i minnet. En tabell (<strong>array</strong>) er en samling med
 verdier som ligger etter hverandre i minnet.</p>
 <ul>
 <li>Relevant pensum: P&amp;P kapittel 16, K&amp;R kapittel 5.</li>
-<li>Anbefalte oppgaver: P&amp;P 16.1-16.3, 16.9</li>
+<li>Anbefalte oppgaver: P&amp;P 16.1, 16.2, 16.3, 16.9</li>
 </ul>
 <h3 id="s-complement-og-flyttallsrepresentasjoner">2’s complement og
 flyttallsrepresentasjoner</h3>
@@ -506,8 +511,9 @@ heltall modulo <span class="math inline">2<sup><em>n</em></sup></span>.
 Flyttall representeres som et fortegn (+/-), en signifikant/mantissa og
 en eksponent, lignende med vitenskapelig notasjon.</p>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 2.2, 2.3, 2.5, 2.7</li>
+<li>Anbefalte oppgaver: P&amp;P 2.4, 2.5, .26, 2.7, 2.10, 2.13, 2.17,
+2.22, 2.24, 2.40, 2.41</li>
 </ul>
 <h3 id="sammensatte-datatyper-structs">Sammensatte datatyper
 (structs)</h3>
@@ -515,8 +521,9 @@ en eksponent, lignende med vitenskapelig notasjon.</p>
 datatyper; for eksempel er <code>struct { int x; int y; }</code> satt
 sammen av to <code>int</code>.</p>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 19.1, 19.2, 19.3; K&amp;R kapittel
+6.1, 6.2, 6.3, 6.4</li>
+<li>Anbefalte oppgaver: P&amp;P 19.1, 19.3</li>
 </ul>
 <h3 id="minne-ii-dynamisk-minnehåndtering">Minne II: Dynamisk
 minnehåndtering</h3>
@@ -525,8 +532,7 @@ skriver programmet, f.eks. hvis dette avhenger av noe brukeren gjør. Vi
 kan dynamisk allokere og deallokere minne ved bruk av en håndfull
 funksjoner, f.eks. <code>malloc()</code> og <code>free()</code>.</p>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 19.4</li>
 </ul>
 <h3 id="minne-iii-stack-call-stack-heap">Minne III: Stack, call stack,
 heap</h3>
@@ -536,8 +542,9 @@ et område som kalles <strong>stacken</strong> eller the call stack på
 engelsk. Denne fungerer som en stack datastruktur: det fsiste som ble
 lagt inn er det første som fjernes.</p>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 8.2, 12.5, 14.3, 19.4</li>
+<li>Anbefalte oppgaver: P&amp;P 8.1, 8.2, 8.4, 8.8, 14.2, 14.7,
+14.8</li>
 </ul>
 <h3 id="lenket-liste">Lenket liste</h3>
 <p>En lenket liste er en dynamisk datastruktur som kan holde vilkårlig
@@ -545,8 +552,9 @@ mange ting i rekkefølge. Dette gjøres ved at det lagres noe data (det
 man vil ha i lista) og en peker til neste “node” (data + peker) i
 listen.</p>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 19.5; K&amp;R kapittel 6.5</li>
+<li>Anbefalte oppgaver: lag en lenket liste; putt tilfeldige tall inn i
+den</li>
 </ul>
 <h3 id="sdlevent-loop">SDL/Event loop</h3>
 <p>I forbindelse med den obligatoriske oppgaven bruker vi et bibliotek
@@ -565,24 +573,25 @@ class="math display"><em>n</em>! = <em>n</em> ⋅ (<em>n</em> − 1)
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="cf">return</span> n<span class="op">*</span>factorial<span class="op">(</span>n<span class="op">-</span><span class="dv">1</span><span class="op">);</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 17</li>
+<li>Anbefalte oppgaver: 17.1, 17.2, 17.3, 17.4, 17.5, 17.8, 17.10,
+17.11, 17.12</li>
 </ul>
 <h3 id="inputoutput-med-filer">Input/Output med filer</h3>
 <p>Et program er mest interessant når det tar inn data (input til
 programmet) og gir ut data (output fra programmet). Filer er en veldig
 vanlig mate å gi input/få output.</p>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 18</li>
+<li>Anbefalte oppgaver: 18.3, 18.8, 18.9</li>
 </ul>
 <h3 id="von-neumann-modellen">Von Neumann-modellen</h3>
 <p>På midten av 1900-tallet foreslo Von Neumann en model for hvordan
 komponentene i en datamaskin kan organiseres og samhandle. Denne
 modellen er i stor grad relevant også i dag.</p>
 <ul>
-<li>Relevant pensum: TK</li>
-<li>Anbefalte oppgaver: TK</li>
+<li>Relevant pensum: P&amp;P kapittel 4</li>
+<li>Anbefalte oppgaver: 4.1, 4.2, 4.3, 4.6, 4.7, 4.9, 4.11, 4.16</li>
 </ul>
 <p><a href="#innhold">Tilbake til innhold</a></p>
 </body>

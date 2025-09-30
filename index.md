@@ -98,6 +98,9 @@ mange gode resurser online. For eksempel:
   slags små oppgaver. Poenget for de som deltar aktivt er å skrive så korte
   programmer som mulig (derav "golf"); vi anbefaler å ignorere denne delen av
   code golfing da det ikke oppmuntrer til spesielt god/lesbar kode.
+* [Advent of Code](https://adventofcode.com/) er en programmeringsaktivitet som
+  går 1-25 desember hvert år: hver dag kommer det en ny programmerings oppgave
+  i stigende vanskelighetsgrad. Man kan se alle oppgaver fra tidligere år.
 
 I tillegg finnes det mange alternativer på YouTube, som f.eks. fra
 [freeCodeCamp](https://www.youtube.com/watch?v=KJgsSFOSQv0).
@@ -111,7 +114,8 @@ Forelesningsnotater legges under `lectures/` i [dette github-repoet](https://git
 
 ## Temaoversikt {#temaoversikt}
 Nedenfor er kurset i et nøtteskall med hint om relevant pensum og forslag til
-oppgaver. For forelesningsnotater se
+oppgaver. Merk at forelesningsnotatene ofte inneholder oppgaver også. For
+forelesningsnotater se
 [forelesningsnotater](#forelesningsnotater) over.
 
 ###  Kompilering og headers                             
@@ -132,22 +136,23 @@ minnet. En tabell (**array**) er en samling med verdier som ligger etter
 hverandre i minnet. 
 
 * Relevant pensum: P&P kapittel 16, K&R kapittel 5.
-* Anbefalte oppgaver: P&P 16.1-16.3, 16.9
+* Anbefalte oppgaver: P&P 16.1, 16.2, 16.3, 16.9
 
 ###  2's complement og flyttallsrepresentasjoner        
 Negative heltall representeres i *two's complement*, som er heltall modulo
 $2^n$. Flyttall representeres som et fortegn (+/-), en signifikant/mantissa og
 en eksponent, lignende med vitenskapelig notasjon.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 2.2, 2.3, 2.5, 2.7
+* Anbefalte oppgaver: P&P 2.4, 2.5, .26, 2.7, 2.10, 2.13, 2.17, 2.22, 2.24,
+  2.40, 2.41
 
 ###  Sammensatte datatyper (structs) 
 En `struct` er en datatype i C som er satt sammen av flere datatyper; for
 eksempel er `struct { int x; int y; }` satt sammen av to `int`.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 19.1, 19.2, 19.3; K&R kapittel 6.1, 6.2, 6.3, 6.4
+* Anbefalte oppgaver: P&P 19.1, 19.3
 
 ###  Minne II: Dynamisk minnehåndtering                 
 I mange tilfeller vet vi ikke hvor mye minne vi trenger mens vi skriver
@@ -155,8 +160,7 @@ programmet, f.eks. hvis dette avhenger av noe brukeren gjør. Vi kan dynamisk
 allokere og deallokere minne ved bruk av en håndfull funksjoner, f.eks.
 `malloc()` og `free()`.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 19.4
 
 ###  Minne III: Stack, call stack, heap                 
 Dynamisk allokert minne legges i en del av minnet som kalles **heap**. Alt
@@ -164,16 +168,16 @@ minne som hører til et funksjonskall havner i et område som kalles **stacken**
 eller the call stack på engelsk. Denne fungerer som en stack datastruktur: det
 fsiste som ble lagt inn er det første som fjernes.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 8.2, 12.5, 14.3, 19.4
+* Anbefalte oppgaver: P&P 8.1, 8.2, 8.4, 8.8, 14.2, 14.7, 14.8
 
 ###  Lenket liste 
 En lenket liste er en dynamisk datastruktur som kan holde vilkårlig mange ting
 i rekkefølge. Dette gjøres ved at det lagres noe data (det man vil ha i lista)
 og en peker til neste "node" (data + peker) i listen.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 19.5; K&R kapittel 6.5
+* Anbefalte oppgaver: lag en lenket liste; putt tilfeldige tall inn i den
 
 ###  SDL/Event loop                                     
 I forbindelse med den obligatoriske oppgaven bruker vi et bibliotek som heter
@@ -200,23 +204,23 @@ int factorial(int n) {
 }
 ```
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 17
+* Anbefalte oppgaver: 17.1, 17.2, 17.3, 17.4, 17.5, 17.8, 17.10, 17.11, 17.12
 
 ###  Input/Output med filer                             
 Et program er mest interessant når det tar inn data (input til programmet) og
 gir ut data (output fra programmet). Filer er en veldig vanlig mate å gi
 input/få output.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 18
+* Anbefalte oppgaver: 18.3, 18.8, 18.9
 
 ###  Von Neumann-modellen                               
 På midten av 1900-tallet foreslo Von Neumann en model for hvordan komponentene
 i en datamaskin kan organiseres og samhandle. Denne modellen er i stor grad
 relevant også i dag.
 
-* Relevant pensum: TK
-* Anbefalte oppgaver: TK
+* Relevant pensum: P&P kapittel 4
+* Anbefalte oppgaver: 4.1, 4.2, 4.3, 4.6, 4.7, 4.9, 4.11, 4.16
 
 [Tilbake til innhold](#innhold)
