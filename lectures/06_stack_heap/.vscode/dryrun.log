@@ -1,0 +1,4 @@
+make: Entering directory `/Users/einar/Dropbox/repos/teaching/uit-inf-1100-staff/Lectures/00_ein_4_stack_and_recursion'
+pandoc -t beamer -i slides.md -o slides.pdf
+make: Leaving directory `/Users/einar/Dropbox/repos/teaching/uit-inf-1100-staff/Lectures/00_ein_4_stack_and_recursion'
+ 

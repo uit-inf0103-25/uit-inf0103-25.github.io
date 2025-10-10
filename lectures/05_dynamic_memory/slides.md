@@ -19,7 +19,7 @@ date:
 
 # Dagens tema
 
-* Størrelse på variabler og verdier
+* Dynamisk minnehåndtering
 
 
 # `sizeof`-operatoren
@@ -32,4 +32,14 @@ date:
 
 * Relasjon til peker-aritimetikk: `p + n` gir en peker som er `n * sizeof(*p)` bytes lenger framme enn `p`
 
-# Eksempel med `sizeof`-operatoren
+# Allokere minne (stdlib.h)
+
+* malloc - alloker minne, returnerer en peker til det allokerte minnet
+* calloc - samme som malloc, men setter minnet til 0
+* free - frigjør minne som har blitt allokert tidligere
+* (realloc - øk eller minsk størrelsen på allokert minne, kan flytte dataen)
+
+# Minnehåndtering (string.h)
+
+* memcpy - kopiere minne fra en plass til en annen
+* strlen - telle antall bytes frem til en 0-byte
