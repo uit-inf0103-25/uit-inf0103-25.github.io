@@ -9,7 +9,9 @@ Her er nyttige lenker for å hoppe rett til en av overskriftene nedenfor
 * [Pensumlitteratur](#pensum)
 * [Kursets stab](#stab)
 * [Forelesningsplan](#plan)
-* [Hvor finner man oppgaver?](#oppgaver)
+* [Eksamen](#eksamen)
+* [Obligatoriske oppgaver](#oblig)
+* [Hvor finner man programmerings oppgaver?](#oppgaver)
 * [Forelesningsnotater](#forelesningsnotater)
 * [Temaoversikt](#temaoversikt)
 
@@ -26,6 +28,7 @@ Her er nyttige lenker for å hoppe rett til en av overskriftene nedenfor
 ### Støttelitteratur
 * Kernighan & Ritchie -- The C Programming language (K&R i temaoversikt).
   [Finnes tilgjengelig online her](https://archive.org/details/c-programming-language-2nd-edition/mode/2up).
+* [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html)
 * [c-faq](https://c-faq.com/): ofte-stilte spørsmål om C
 * [C reference](https://en.cppreference.com/w/c.html): Teknisk dokumentasjon for C.
 
@@ -83,7 +86,38 @@ Oversikt over BBI tema finner du [her](https://uit.no/project/bbi2/cultural).
 
 [Tilbake til innhold](#innhold)
 
-## Hvor finner man oppgaver? {#oppgaver}
+## Eksamen {#eksamen}
+Eksamen er en 3 timers skriftlig skoleeksamen. I praksis betyr dette at du
+møter opp på et eksamenslokale og løser eksamen der. Dette kurset er nytt og
+har ikke tidligere eksamener men eksamen vil ligne en kortere variant av
+skriftlig eksamen fra gamle INF-1100. For å øve til eksamen kan det være en
+god idé å gå gjennom gamle eksamensett derfra. Du kan finne dem i 
+[kursets repo](https://github.com/uit-inf0103-25/uit-inf0103-25.github.io) 
+under `exams_1100/`.
+
+[Tilbake til innhold](#innhold)
+
+## Obligatoriske oppgaver {#oblig}
+For å få gå opp til eksamen må du ha bestått en av kursets obligatoriske
+oppgaver (også kalt arbeidskrav). Disse leveres i Canvas, og oppgavene finnes i
+Canvas under Filer. Denne ene, bouncing balls, er markert _(ikke LLM)_ og skal
+ikke brukes kunstig intelligens type verktøy på (chatgpt, copilot, osv.). Med
+andre ord ligger den på Nivå 1 etter 
+[UiTs retningslinjer](https://uit.no/vurdering#innhold_887886).
+Den andre er for folk som er spesielt interesserte i å bruke en KI (eller som
+ønsker en ekstra utfordring) og ligger på Nivå 4. Hvis du ønsker å gjøre denne
+oppgaven skal du avtale det med Edvard på forhånd.
+
+I utgangspunktet har du to forsøk på arbeidskravet: ett hovedforsøk og en
+mulighet til å rette opp mangler etter tilbakemelding fra hjelpelærer. Hvis du
+ikke leverer til fristen telles det som at du har brukt et forsøk.
+
+Merk at også disse oppgavene faller under 
+[eksamensreglementet](https://lovdata.no/dokument/SF/forskrift/2020-06-26-1617/KAPITTEL_7#%C2%A746).
+
+[Tilbake til innhold](#innhold)
+
+## Hvor finner man programmeringsoppgaver? {#oppgaver}
 Eller kanskje snarere: hvordan lærer man å programmere? Man lærer å programmere
 ved å skrive programmer som løser forskjellige problemer. Læreboka P&P er en
 kilde til oppgaver, i temaoversikt nedenfor lister vi noen oppgaver relevante
@@ -99,7 +133,7 @@ mange gode resurser online. For eksempel:
   programmer som mulig (derav "golf"); vi anbefaler å ignorere denne delen av
   code golfing da det ikke oppmuntrer til spesielt god/lesbar kode.
 * [Advent of Code](https://adventofcode.com/) er en programmeringsaktivitet som
-  går 1-25 desember hvert år: hver dag kommer det en ny programmerings oppgave
+  går 1-25 desember hvert år: hver dag kommer det en ny programmeringsoppgave
   i stigende vanskelighetsgrad. Man kan se alle oppgaver fra tidligere år.
 
 I tillegg finnes det mange alternativer på YouTube, som f.eks. fra
