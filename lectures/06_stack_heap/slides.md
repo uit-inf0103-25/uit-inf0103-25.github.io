@@ -16,11 +16,14 @@ date:
 
 ---
 
+#
+## feil.c
+
 # Oversikt
 
 * Datastrukturen stack (eng.): hva er det og hvordan brukes det?
 * Stacken, (aka. "the call stack"): hvordan gjøres funksjonskall?
-* Rekursjon: Hva er det og hvordan kan vi løse problemer med det?
+* Hvordan (ca.) er programmet lagt ut i minnet?
 
 
 # _Stack_ er engelsk for _stabel_
@@ -97,8 +100,9 @@ for (int j = 0; j < i; j ++) {
 printf("%s\n", hello);     // prints dlrowolleH
 ```
 
+
 #
-## The Call Stack (stacken)
+## The Call Stack ("stacken")
 
 # Funksjoner trenger plass i minne til argumenter, returverdi, og arbeidsvariabler
 ```C
@@ -135,7 +139,6 @@ char diff = subtract(6, 5);
     PUSH 5                  // put arguments on stack
     PUSH 6              
     CALL subtract           // jump to subtract code
-    POP r1                  // pop return value into register 1
     ...
 # subtract:
     POP r2                  // pop argument into register 2
@@ -444,24 +447,6 @@ int b(int arg) { ...; ret_c = c(arg); ...;  }
 #
 ## Hvor er `main` sine variabler?
 
-# Tegning igjen: minneallokering + peker
-```C
-int main() {
-    int *result;
-
-    // stuff happpens...
-
-    result = malloc(sizeof(int));
-    
-    // ...
-
-    *result = 12345;
-
-    // ...
-
-    return 0;
-}
-```
 
 # Aktivitet: funksjonskall med stack  
 Den nederste koden bruker stacken fra tidligere til å returnere resultatet.
@@ -474,7 +459,7 @@ char subtract(char a, char b) {
 }
 ```
 
-## Med stack [https://bit.ly/3B0WJXz](https://bit.ly/3B0WJXz) (løsningsforslag [https://bit.ly/2YplKxo](https://bit.ly/2YplKxo))
+## Med stack [https://bit.ly/3B0WJXz](https://bit.ly/3B0WJXz) 
 ```C
 void subtract(char a, char b) {
   push(a - b);
@@ -508,3 +493,17 @@ void subtract() {
     POP r1                  // pop return value into register 1
 ```
 
+#
+## Diskusjon: hva er en alternativ måte å sette av plass til funksjonskall i minnet? Hva er fordeler/ulemper?
+
+#
+## addresser.c
+
+# Hovedpoeng
+1. Funksjonskall skjer ved at variabler/argumenter får plass i en stack frame på call stack
+2. Allokert minne ligger på "heap"
+3. disse er på "hver sin side" av minnet og vokser mot hverandre
+
+# Oppgave (hvis tid)
+Skriv et program som estimerer hvor stor stacken har lov til å være på ditt
+system

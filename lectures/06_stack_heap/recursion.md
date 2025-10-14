@@ -1,3 +1,21 @@
+---
+title:
+- "INF-1100: Stack, call stack, og heap"
+author:
+- "Einar Holsbø, UiT – Norges arktiske universitet"
+theme:
+- default
+colortheme:
+- seagull
+aspectratio:
+- 169
+font:
+- serif
+date:
+- "H25"
+
+---
+
 #
 ## Rekursjon
 
@@ -13,8 +31,7 @@ Eller: $n! = n \times (n - 1)!,$ med $1! = 1$ (viktig).
 
 ```C
 int factorial(n) {
-  if (n == 1) return 1;
-  return n*factorial(n-1);
+
 }
 ```
 
