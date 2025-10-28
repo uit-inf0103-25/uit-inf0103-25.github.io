@@ -1,0 +1,20 @@
+# Forelesning SDL event loop
+
+- Bruk av AI
+-- Hva er lov, hva er ikke?
+-- Copy paste vs. "inspirert"
+-- Context og kode
+
+- Tid til levering
+-- Haster nå
+
+SDL / event loop
+- Hva er SDL?
+- Hva vi skal se på?
+
+SDL_Init
+SDL_CreateWindow
+SDL_GetWindowSurface
+SDL_PollEvent
+events...
+SDL_UpdateWindowSurface
