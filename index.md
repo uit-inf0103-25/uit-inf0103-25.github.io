@@ -75,14 +75,14 @@ Oversikt over BBI tema finner du [her](https://uit.no/project/bbi2/cultural).
 |**Tirsdag 28/10**|   Rekursjon + BBI-foredrag                           |                                   | BBI + EH  |
 | Fredag 31/10    |                                                      |                                   |           |
 |**Tirsdag 04/11**|   Input/Output med filer                             |                                   |   EP      |
-| Fredag 07/11    |   Von Neumann-modellen                               | obligatorisk oppgave skal leveres |   AB      |
-|**Tirsdag 11/11**|   BBI-foredrag                                       | starter 11:15, ikke 10:15         | BBI       |
+| Fredag 07/11    |                                                      | obligatorisk oppgave skal leveres |           |
+|**Tirsdag 11/11**|   Von Neumann-modellen +BBI-foredrag                 |                                   | BBI + AB  |
 | Fredag 14/11    |                                                      |                                   |           |
-|**Tirsdag 18/11**|                                                      |                                   |           |
+|**Tirsdag 18/11**|   Ringbuffer + Evaluering                            |                                   | EP + EH   |
 | Fredag 21/11    |                                                      |                                   |           |
-|**Tirsdag 25/11**|   BBI-foredrag                                       | starter 11:15                     | BBI       |
+|**Tirsdag 25/11**|   Repetisjon/eksamenstips  +  BBI-foredrag           |                                   | BBI + EH  |
 | Fredag 28/11    |                                                      |                                   |           |
-| <tag style="color: red;"> **Torsdag 11/12** </tag>   | <tag style="color: red;">  **EKSAMEN** </tag>                      |           |         |
+| <tag style="color: red;"> **Torsdag 11/12** </tag>   | <tag style="color: red;">  **EKSAMEN** </tag>  |    |           |
 
 [Tilbake til innhold](#innhold)
 
