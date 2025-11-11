@@ -257,4 +257,16 @@ relevant også i dag.
 * Relevant pensum: P&P kapittel 4
 * Anbefalte oppgaver: 4.1, 4.2, 4.3, 4.6, 4.7, 4.9, 4.11, 4.16
 
+**Lenker fra forelesning:**  
+
+* Simulator: [lenke](https://tools.withcode.uk/cpu/?ram=00000000000000000000000000000000)  
+* Simulator preloadet med et annet program [lenke](https://tools.withcode.uk/cpu/?ram=05030001517c5210325123317e645200). NB! Programtelleren må initialiseres med verdien 00000100 før start fordi programmet starter ikke på minneplassering 0. Klarer du å finne ut hva det gjør?  
+
+Tre nyttige videoer:
+
+* Harvard vs. von Neumann-arkitektur: [lenke](https://www.youtube.com/watch?v=4nY7mNHLrLk)
+* Computerphile om von Neumann: [lenke](https://www.youtube.com/watch?v=Ml3-kVYLNr8)
+* Instruksjonssyklusen: [lenke](https://www.youtube.com/watch?v=Z5JC9Ve1sfI)
+
+
 [Tilbake til innhold](#innhold)
