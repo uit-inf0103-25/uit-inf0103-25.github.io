@@ -1,0 +1,54 @@
+Oppgave 1
+
+a)
+  Min forståelse er at funksjonen teller forekomster av b i strengen a.
+ (a) funksjonen gir 3 som output
+ (b) funksjonen gir 0 som output
+
+b) b er en character, a er en peker til en eller flere characters. fra
+funksjonskallet ser jeg at det dreier seg om en vanlig tekststreng.
+
+c)  i funksjonsdefinisjonen sier vi at a er en peker til characters
+char *c = a;  --- c er en character eker som initialiseres til å peke på det som a peker på
+while(*c != 0) {   --- vi derefererer c for å få verdien som pekes til
+if(*c == b) {   --- samme som over.
+
+
+
+Oppgave 3
+
+Jeg forstår det som at A holder nøyaktig n tekststrenger og ikke termineres av
+noen nullpeker
+
+a)
+blir å trenge en funksjon som finner lengden på en tekststreng, skriver det som hjelpefunksjon under:
+
+// antar alle strengene er nullterminert
+int lengde(char *str) {
+  int len = 0;
+  while(str != 0) {
+    len++;
+    str++;
+  }
+
+  return len;
+}
+
+for lengste kan jeg bruke min hjelpefunksjon
+
+// returnerer index i a til lengste streng
+int lengste(char **A, int n) {
+  int lengst = 0;
+  for (int i = 0; i < n; i++) {
+    if (lengde(A[i] > lengden[lengst]) lengst = i;
+  }
+
+  return i;
+}
+
+b)
+jeg antar at substreng alltid er kortere enn strengen som skal testes. dette er
+kun for å forenkle implementeringen, i det virkelige liv må man ta stilling til
+det.
+
+jeg vlir å lage en hjelpefunksjon som  sjekker for substreng i en gitt streng. denne vil returnere 0 hvis der ikke er en substreg, 1 ellers.
